@@ -1,0 +1,49 @@
+points:
+  A:
+    x: 0.0
+    y: 0.0
+  B:
+    x: 1.0
+    y: 0.0
+  C:
+    x: 2.0
+    y: 1.0
+  D:
+    x: 2.0
+    y: 2.0
+  E:
+    x: 0.0
+    y: 1.0
+
+
+distances:
+  - from: A
+    to: B
+    d: 1.0
+  - from: A
+    to: C
+    d: 1.618
+  - from: A
+    to: D
+    d: 1.618
+  - from: B
+    to: C
+    d: 1.0
+  - from: B
+    to: D
+    d: 1.618
+  - from: B
+    to: E
+    d: 1.618
+  - from: C
+    to: D
+    d: 1.0
+  - from: C
+    to: E
+    d: 1.618
+  - from: D
+    to: E
+    d: 1.0
+  - from: E
+    to: A
+    d: 1.0
