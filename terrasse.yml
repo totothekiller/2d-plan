@@ -1,0 +1,145 @@
+points:
+  A:
+    x: 0.0
+    y: 0.0
+    x-lock: true
+    y-lock: true
+  B:
+    x: 0.0
+    y: 1.86
+  C:
+    x: 3.94
+    y: 1.86
+  D:
+    x: 3.94
+    y: 3.77
+  E:
+    x: 6.88
+    y: 3.77
+  F:
+    x: 8.93
+    y: 3.77
+  G:
+    x: 8.93
+    y: 5.91
+  H:
+    x: 10.53
+    y: 5.91
+  I:
+    x: 10.53
+    y: 0.0
+    y-lock: true
+
+distances:
+
+  # A
+  - from: A
+    to: I
+    d: 10.53
+  - from: A 
+    to: B
+    d: 1.86
+  - from: A 
+    to: E
+    d: 7.95
+  - from: A 
+    to: F
+    d: 9.8
+  - from: A 
+    to: H
+    d: 12.27
+  - from: A 
+    to: G
+    d: 10.89
+  - from: A 
+    to: C
+    d: 4.43
+
+  # B
+  - from: B
+    to: C
+    d: 3.94
+  - from: B
+    to: D
+    d: 4.37
+  - from: B
+    to: E
+    d: 7.17
+  - from: B
+    to: F
+    d: 9.14
+  - from: B 
+    to: I
+    d: 10.58
+
+  # C
+  - from: C
+    to: D
+    d: 1.91
+  - from: C
+    to: I
+    d: 6.74
+  - from: C
+    to: F
+    d: 5.33
+  - from: C
+    to: E
+    d: 3.55
+  - from: C
+    to: H
+    d: 7.78
+
+  # D
+  - from: D
+    to: E 
+    d: 2.94
+  - from: D
+    to: F
+    d: 4.99
+  - from: D
+    to:  G
+    d: 5.57
+  - from: D
+    to:  H
+    d: 6.99
+  - from: D
+    to: I 
+    d: 7.48
+
+  # E
+  - from: E
+    to:  F
+    d: 2.05
+  - from: E
+    to:  I
+    d: 5.20
+  - from: E
+    to:  G
+    d: 3.00
+  - from: E
+    to:  H
+    d: 4.22
+
+  # F
+  - from: F
+    to: G
+    d: 2.14
+  - from: F
+    to: H
+    d: 2.63
+  - from: F
+    to: I 
+    d: 3.99
+
+  # G
+  - from: G
+    to: H 
+    d: 1.60
+  - from: G
+    to: I
+    d: 5.98
+
+  # H
+  - from: H
+    to: I
+    d: 5.76
