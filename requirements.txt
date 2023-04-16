@@ -1,0 +1,4 @@
+vector
+pyyaml
+plotly
+shapely
